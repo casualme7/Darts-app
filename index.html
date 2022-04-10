@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="shortcut icon" href="Logo/dartsLogo.png" type="image/x-icon" />
+		<title>Darts App</title>
+	</head>
+	<body>
+		<main class="playersSection"></main>
+		<section class="numbersSection"></section>
+		<section id="buttons">
+			<button id="nextButton">
+				NEXT PLAYER
+				<i id="settingsIcon" class="fa fa-cog" aria-hidden="true"></i>
+			</button>
+			<button id="fullScreen">FULLSCREEN</button>
+		</section>
+		<section id="playerSize">
+			<button>2 P</button>
+			<button>3 P</button>
+			<button>4 P</button>
+		</section>
+		<div class="settingsMenu shrinked">
+			<div class="settingsDiv">Player Size</div>
+			<section id="playerSize2">
+				<button>2 P</button>
+				<button>3 P</button>
+				<button>4 P</button>
+			</section>
+			<div class="settingsDiv">Playing to</div>
+			<section id="playerSize2" class="scorePicker">
+				<button>101</button>
+				<button>301</button>
+				<button>501</button>
+			</section>
+			<section id="playerSize2">
+				<button id="fullScreen2">FULLSCREEN</button>
+			</section>
+			<div id="exitIcon">EXIT</div>
+			<div id="exitIcon2">APPLY</div>
+		</div>
+
+		<script src="https://kit.fontawesome.com/1ff859cf8f.js" crossorigin="anonymous"></script>
+		<script src="app.js"></script>
+	</body>
+</html>
